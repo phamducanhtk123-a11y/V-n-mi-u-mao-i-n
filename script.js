@@ -26,19 +26,29 @@ document.addEventListener('DOMContentLoaded', function () {
   // Quiz logic
   const quizData = [
     {
-      question: 'Văn Miếu Mao Điền là di tích gắn với lĩnh vực nào?',
-      options: ['Kinh tế', 'Giáo dục và khoa bảng', 'Quân sự', 'Y học'],
+      question: 'Văn Miếu Mao Điền được xây dựng từ thời đại nào?',
+      options: ['Thời Lý', 'Thời Trần', 'Thời Lê', 'Thời Nguyễn'],
       answer: 1,
     },
     {
-      question: 'Ai là nhà giáo nổi tiếng của Việt Nam được nhắc tới trong trang danh nhân?',
-      options: ['Chu Văn An', 'Nguyễn Trãi', 'Lê Quý Đôn', 'Phạm Văn Đồng'],
-      answer: 0,
+      question: 'Ai là nhà giáo có quan điểm "dạy người trước khi dạy chữ"?',
+      options: ['Mạc Đĩnh Chi', 'Nguyễn Bỉnh Khiêm', 'Chu Văn An', 'Trần Hưng Đạo'],
+      answer: 2,
     },
     {
-      question: 'Bia tiến sĩ thể hiện giá trị nào?',
-      options: ['Giải trí', 'Thương mại', 'Lưu danh hiền tài', 'Kinh doanh'],
-      answer: 2,
+      question: 'Bia tiến sĩ tượng trưng cho điều gì?',
+      options: ['Sự giàu có', 'Tri thức và học vấn', 'Quyền lực chính trị', 'Nghệ thuật'],
+      answer: 1,
+    },
+    {
+      question: 'Nguyễn Bỉnh Khiêm nổi tiếng với vai trò gì?',
+      options: ['Nhà thơ', 'Nhà dự ngôn', 'Nhà khoa học', 'Nhà quân sự'],
+      answer: 1,
+    },
+    {
+      question: 'Cổng đình của Văn Miếu có ý nghĩa gì?',
+      options: ['Chuyển tiếp từ thế tục sang linh thiêng', 'Bảo vệ di tích', 'Trang trí kiến trúc', 'Đón khách tham quan'],
+      answer: 0,
     },
   ];
 
